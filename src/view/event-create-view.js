@@ -191,6 +191,7 @@ function createEventCreateTemplate(_state, allDestinations, eventTypes) {
               class="event__input  event__input--price"
               type="number"
               min="1"
+              max="100000"
               name="event-price"
               value="${basePrice}"
               ${isDisabled ? 'disabled' : ''}>

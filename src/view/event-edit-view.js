@@ -191,6 +191,7 @@ function createEventEditTemplate(_state, allDestinations, eventTypes) {
               id="event-price-${id}"
               type="number"
               min="1"
+              max="100000"
               name="event-price"
               value="${basePrice}"
               ${isDisabled ? 'disabled' : ''}>
